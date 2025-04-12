@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const testContainer = document.getElementById("test-container");
 
-    fetch('https://zytronium.github.io/TheFactionNexus/assets/test.txt')
+    fetch('https://thefactionnexus.tech/assets/test.txt')
         .then((response) => response.text())
         .then((text) => {
             testContainer.innerHTML = text;

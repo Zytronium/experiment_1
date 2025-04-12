@@ -30,7 +30,7 @@
 - Test 5:
   - Pull a text file from the website
   - Prediction: Not sure if it will work. Guess: It will not work
-  - Results: Untested
+  - Results: Failed.
 - Test 6:
   - Pull a JSON file from the website
   - Prediction: Not sure if it will work. Guess: It will not work
