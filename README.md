@@ -8,7 +8,7 @@
 - Test 2:
   - Pull from assets/HTML_Templates/navbar.html
   - Prediction: Note sure if it will work. Guess: It will work
-  - Results: Untested
+  - Results: Failed
 - Test 3:
   - Pull some CSS from assets/CSS
   - Prediction: Note sure if it will work. Guess: It will work
