@@ -5,6 +5,10 @@
   - Pull an entire HTML page
   - Prediction: Not sure if it will work. Guess: It will work
   - Results: Failed
+- Test 1.5:
+  - Pull an entire HTML page from GitHub Pages version of the same website
+  - Prediction: It will partially work
+  - Results: Untested
 - Test 2:
   - Pull from assets/HTML_Templates/navbar.html
   - Prediction: It will work if test 1 worked
