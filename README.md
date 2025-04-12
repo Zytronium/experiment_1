@@ -55,6 +55,10 @@
   - Use the CSS stylesheets pulled from GitHub Pages and apply it
   - Prediction: I forgot to make a prediction before trying it
   - Results: It worked. For the most part. Certain assets like fonts and images cannot be found, as those files do not exist in this project and the paths are not adjusted to also pull them from GitHub Pages.
+- Test 9.75:
+  - Run the scripts designed to run with the given page pulled from GitHub Pages
+  - Prediction: It will try to run, but it will not successfully access the database it's trying to access.
+  - Results: Success!! Upon slightly modifying factions.js on GitHub to wait half a second before running, and pasting a small script from factions.html into this project's index.html, it successfully loads the factions from the database!
 - Test 10:
   - Pull and display a CSS file and JS script file as text from the GitHub Pages version of the website
   - Prediction: It will work

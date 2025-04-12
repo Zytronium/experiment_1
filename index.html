@@ -6,12 +6,35 @@
     <title>Experiment 1</title>
 
     <script src="index.js"></script>
+    <link rel="stylesheet" href="https://zytronium.github.io/TheFactionNexus/assets/styles/colors.css">
     <link rel="stylesheet" href="https://zytronium.github.io/TheFactionNexus/assets/styles/style.css">
     <link rel="stylesheet" href="https://zytronium.github.io/TheFactionNexus/assets/styles/factions.css">
+    <script src="https://zytronium.github.io/TheFactionNexus/assets/scripts/factions.js"></script>
 </head>
 <body>
 
 <div id="test-container"></div>
+<script type="module" id="firebase-init">
+    // Import the functions you need from the SDKs you need
+    import {
+        initializeApp
+    } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+    import {
+        getFirestore
+    } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js";
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        /* REDACTED */
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    // Remove this script tag from the DOM after execution
+    document.getElementById("firebase-init").remove();
+</script>
 
 </body>
 </html>
