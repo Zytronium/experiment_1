@@ -1,0 +1,35 @@
+# Experiment #1
+## Localhost fetching assets from my website. Will it work?
+
+- Test 1:
+  - Pull an entire HTML page
+  - Prediction: Note sure if it will work. Guess: It will work
+  - Results: Failed
+- Test 2:
+  - Pull from assets/HTML_Templates/navbar.html
+  - Prediction: Note sure if it will work. Guess: It will work
+  - Results: Untested
+- Test 3:
+  - Pull some CSS from assets/CSS
+  - Prediction: Note sure if it will work. Guess: It will work
+  - Results: Untested
+- Test 4:
+  - Pull a script from assets/scripts
+  - Prediction: Note sure if it will work. Guess: It will work
+  - Results: Untested
+- Test 5:
+  - Pull a text file from the website
+  - Prediction: It will work
+  - Results: Untested
+- Test 6:
+  - Pull a JSON file from the website
+  - Prediction: It will work
+  - Results: Untested
+- Test 7:
+  - Pull README.md from a website hosted on GitHub Pages
+  - Prediction: It will work
+  - Results: Untested
+- Test 8:
+  - Pull README.md from a public GitHub Repo not hosted on GitHub Pages
+  - Prediction: It may work
+  - Results: Untested
