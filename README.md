@@ -3,7 +3,7 @@
 
 - Test 1:
   - Pull an entire HTML page
-  - Prediction: Note sure if it will work. Guess: It will work
+  - Prediction: Not sure if it will work. Guess: It will work
   - Results: Failed
 - Test 2:
   - Pull from assets/HTML_Templates/navbar.html
@@ -15,15 +15,15 @@
   - Results: Failed, but could work with a slight modification to the thefactionnexus.tech to allow cross-origin sharing.
 - Test 4:
   - Pull a script from assets/scripts
-  - Prediction: Note sure if it will work. Guess: It will not work
+  - Prediction: Not sure if it will work. Guess: It will not work
   - Results: Untested
 - Test 5:
   - Pull a text file from the website
-  - Prediction: Note sure if it will work. Guess: It will work
+  - Prediction: Not sure if it will work. Guess: It will work
   - Results: Untested
 - Test 6:
   - Pull a JSON file from the website
-  - Prediction: Note sure if it will work. Guess: It will work
+  - Prediction: Not sure if it will work. Guess: It will work
   - Results: Untested
 - Test 7:
   - Pull README.md from a website hosted on GitHub Pages
