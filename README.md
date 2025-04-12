@@ -7,23 +7,23 @@
   - Results: Failed
 - Test 2:
   - Pull from assets/HTML_Templates/navbar.html
-  - Prediction: Note sure if it will work. Guess: It will work
+  - Prediction: It will work if test 1 worked
   - Results: Failed
 - Test 3:
   - Pull some CSS from assets/CSS
-  - Prediction: Note sure if it will work. Guess: It will work
+  - Prediction: It will work if test 2 worked (so it won't work)
   - Results: Untested
 - Test 4:
   - Pull a script from assets/scripts
-  - Prediction: Note sure if it will work. Guess: It will work
+  - Prediction: Note sure if it will work. Guess: It will not work
   - Results: Untested
 - Test 5:
   - Pull a text file from the website
-  - Prediction: It will work
+  - Prediction: Note sure if it will work. Guess: It will work
   - Results: Untested
 - Test 6:
   - Pull a JSON file from the website
-  - Prediction: It will work
+  - Prediction: Note sure if it will work. Guess: It will work
   - Results: Untested
 - Test 7:
   - Pull README.md from a website hosted on GitHub Pages
@@ -31,5 +31,5 @@
   - Results: Untested
 - Test 8:
   - Pull README.md from a public GitHub Repo not hosted on GitHub Pages
-  - Prediction: It may work
+  - Prediction: It will not work
   - Results: Untested
