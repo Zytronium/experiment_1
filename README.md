@@ -47,10 +47,10 @@
   - Pull README.md from a public GitHub Repo not hosted on GitHub Pages
   - Prediction: It will not work
   - Results: Failed
-- Test 9:
+- Test 9 (repeat of test 1.5):
   - Pull an entire HTML page from the GitHub Pages version of the website
   - Prediction: It will work
-  - Results: Success!
+  - Results: Success when there is no CNAME file!
 - Test 9.5:
   - Use the CSS stylesheets pulled from GitHub Pages and apply it
   - Prediction: I forgot to make a prediction before trying it
@@ -59,7 +59,7 @@
   - Run the scripts designed to run with the given page pulled from GitHub Pages
   - Prediction: It will try to run, but it will not successfully access the database it's trying to access.
   - Results: Success!! Upon slightly modifying factions.js on GitHub to wait half a second before running, and pasting a small script from factions.html into this project's index.html, it successfully loads the factions from the database!
-- Test 10:
+- Test 10 (repeat of test 3.5):
   - Pull and display a CSS file and JS script file as text from the GitHub Pages version of the website
   - Prediction: It will work
-  - Results: Untested
+  - Results: Success when there is no CNAME file!
