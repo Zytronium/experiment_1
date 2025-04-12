@@ -47,3 +47,15 @@
   - Pull README.md from a public GitHub Repo not hosted on GitHub Pages
   - Prediction: It will not work
   - Results: Failed
+- Test 9:
+  - Pull an entire HTML page from the GitHub Pages version of the website
+  - Prediction: It will work
+  - Results: Success!
+- Test 9.5:
+  - Use the CSS stylesheets pulled from GitHub Pages and apply it
+  - Prediction: I forgot to make a prediction before trying it
+  - Results: It worked. For the most part. Certain assets like fonts and images cannot be found, as those files do not exist in this project and the paths are not adjusted to also pull them from GitHub Pages.
+- Test 10:
+  - Pull and display a CSS file and JS script file as text from the GitHub Pages version of the website
+  - Prediction: It will work
+  - Results: Untested

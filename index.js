@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const testContainer = document.getElementById("test-container");
 
-    fetch('https://github.com/Zytronium/experiment_1/blob/master/README.md')
+    fetch('https://zytronium.github.io/TheFactionNexus/factions')
         .then((response) => response.text())
         .then((text) => {
             testContainer.innerHTML = text;
