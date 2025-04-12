@@ -13,6 +13,10 @@
   - Pull some CSS from assets/CSS
   - Prediction: It will work if test 2 worked (so it won't work)
   - Results: Failed, but could work with a slight modification to the thefactionnexus.tech to allow cross-origin sharing.
+- Test 3.5:
+  - Pull some CSS from assets/CSS from GitHub Pages version of the same website
+  - Prediction: It will work
+  - Results: Untested
 - Test 4:
   - Pull a script from assets/scripts
   - Prediction: Not sure if it will work. Guess: It will not work
