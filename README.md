@@ -63,3 +63,28 @@
   - Pull and display a CSS file and JS script file as text from the GitHub Pages version of the website
   - Prediction: It will work
   - Results: Success when there is no CNAME file!
+
+---
+
+## Post-experiment Analysis
+When fetching assets or HTML from other websites, it only works if the web server
+has a certain setting on to allow cross-origin sharing. In the case of GitHub Pages,
+this usually/always works unless there is a CNAME file redirecting you to another domain.
+
+In my case, both the actual website and GitHub Pages version allowed me to apply 
+assets like scripts and stylesheets no matter what. However, paths to things like 
+custom fonts or images will not be altered to also pull from the website, and
+therefore will not load.
+
+By pulling from my GitHub Pages version and slightly modifying the script, I was
+able to actually access my FireBase Firestore database this way, which I was hoping
+wouldn't be possible. However, I did also have to copy over a small script that 
+contained my API key in it, and it wouldn't access the database without that script,
+so I think it is safe to assume that my database is relatively safe.
+
+This was a fun and very informative experiment in fetching data from URLs. Now
+that I've spent 2-3 hours on it, I really should get back to work on school. If
+You are reading this, thank you for taking a look at this, and I hope you learn
+something from it too. Please note that I redacted my Firebase config object in
+the script embedded in index.html, and have changed things in the repo this was
+pulling from, therefore the results will not be the same for you.
