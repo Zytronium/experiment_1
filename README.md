@@ -34,7 +34,7 @@
 - Test 6:
   - Pull a JSON file from the website
   - Prediction: Not sure if it will work. Guess: It will not work
-  - Results: Untested
+  - Results: Failed. Crossorigin access not allowed.
 - Test 6.5:
   - Pull a JSON file from the GitHub Pages version of the website
   - Prediction: It will work

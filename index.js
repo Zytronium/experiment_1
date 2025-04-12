@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const testContainer = document.getElementById("test-container");
 
-    fetch('testJson.json')
+    fetch('https://thefactionnexus.tech/assets/testJson.json')
         .then((response) => response.json())
         .then((data) => {
             const ul = document.createElement('ul');
