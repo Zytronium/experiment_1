@@ -46,4 +46,4 @@
 - Test 8:
   - Pull README.md from a public GitHub Repo not hosted on GitHub Pages
   - Prediction: It will not work
-  - Results: Untested
+  - Results: Failed
