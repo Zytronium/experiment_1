@@ -38,7 +38,7 @@
 - Test 6.5:
   - Pull a JSON file from the GitHub Pages version of the website
   - Prediction: It will work
-  - Results: Untested
+  - Results: Success!
 - Test 7:
   - Pull README.md & text file from a website hosted on GitHub Pages
   - Prediction: It will work
