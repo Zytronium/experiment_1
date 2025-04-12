@@ -42,7 +42,7 @@
 - Test 7:
   - Pull README.md & text file from a website hosted on GitHub Pages
   - Prediction: It will work
-  - Results: Untested
+  - Results: Success when there's no CNAME file in the repo.
 - Test 8:
   - Pull README.md from a public GitHub Repo not hosted on GitHub Pages
   - Prediction: It will not work
