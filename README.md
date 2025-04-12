@@ -12,7 +12,7 @@
 - Test 3:
   - Pull some CSS from assets/CSS
   - Prediction: It will work if test 2 worked (so it won't work)
-  - Results: Untested
+  - Results: Failed, but could work with a slight modification to the thefactionnexus.tech to allow cross-origin sharing.
 - Test 4:
   - Pull a script from assets/scripts
   - Prediction: Note sure if it will work. Guess: It will not work
