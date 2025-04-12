@@ -29,14 +29,18 @@
   - Results: Partial success! Couldn't fetch the text JS file, but was able to run the script by declaring it in the HTML Head.
 - Test 5:
   - Pull a text file from the website
-  - Prediction: Not sure if it will work. Guess: It will work
+  - Prediction: Not sure if it will work. Guess: It will not work
   - Results: Untested
 - Test 6:
   - Pull a JSON file from the website
-  - Prediction: Not sure if it will work. Guess: It will work
+  - Prediction: Not sure if it will work. Guess: It will not work
+  - Results: Untested
+- Test 6.5:
+  - Pull a JSON file from the GitHub Pages version of the website
+  - Prediction: It will work
   - Results: Untested
 - Test 7:
-  - Pull README.md from a website hosted on GitHub Pages
+  - Pull README.md & text file from a website hosted on GitHub Pages
   - Prediction: It will work
   - Results: Untested
 - Test 8:
