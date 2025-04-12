@@ -16,7 +16,7 @@
 - Test 3.5:
   - Pull some CSS from assets/CSS from GitHub Pages version of the same website
   - Prediction: It will work
-  - Results: Untested
+  - Results: Partial success! Couldn't fetch the text CSS file, but was able to apply some of the CSS file, not including custom fonts like Oxanium. Loading the CSS as a link in the HTML Head only worked withOUT the 'crossorigin' attribute.
 - Test 4:
   - Pull a script from assets/scripts
   - Prediction: Not sure if it will work. Guess: It will not work
