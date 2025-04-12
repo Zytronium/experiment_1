@@ -16,7 +16,9 @@
 - Test 3:
   - Pull some CSS from assets/CSS
   - Prediction: It will work if test 2 worked (so it won't work)
-  - Results: Failed, but could work with a slight modification to the thefactionnexus.tech to allow cross-origin sharing.
+  - Results:
+    - First try failed, but could work with a slight modification to the thefactionnexus.tech to allow cross-origin sharing.
+    - Second try was a partial success! Couldn't fetch the text CSS file, but was able to apply some of the CSS file, not including custom fonts like Oxanium. Loading the CSS as a link in the HTML Head only worked withOUT the 'crossorigin' attribute.
 - Test 3.5:
   - Pull some CSS from assets/CSS from GitHub Pages version of the same website
   - Prediction: It will work
@@ -24,7 +26,7 @@
 - Test 4:
   - Pull a script from assets/scripts
   - Prediction: Not sure if it will work. Guess: It will not work
-  - Results: Untested
+  - Results: Partial success! Couldn't fetch the text JS file, but was able to run the script by declaring it in the HTML Head.
 - Test 5:
   - Pull a text file from the website
   - Prediction: Not sure if it will work. Guess: It will work
